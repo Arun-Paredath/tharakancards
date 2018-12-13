@@ -1,2 +1,2 @@
-# tharakancards.github.io
+# tharakancards
 Tharakan Cards
