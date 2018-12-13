@@ -9,15 +9,15 @@
 }
 
 50%, 70% {
-	left: -200%;
-}
-
-75%, 95% {
 	left: -300%;
 }
 
-100% {
+75%, 95% {
 	left: -400%;
+}
+
+100% {
+	left: -500%;
 }
 }
 
@@ -26,18 +26,18 @@
 }
 
 #slider figure img {
-	width: 25%;
-	float: left;
+	width: 30%;
+	float: center;
 }
 
 #slider figure {
 	position: relative;
-	width: 400%;
-	margin: 0;
+	width: 475%;
+	margin: 0; 
 	left: 0;
 	text-align: left;
 	font-size: 0;
-	animation: slider 8s infinite ; 
+	animation: slider 7s infinite ; 
 }
 
 @media (min-width: 992px) {
@@ -54,7 +54,8 @@
 
 .class1{
       font-family: 'ZCOOL XiaoWei', serif;
-      text-align: left;
+      text-align: center;
+      margin-left: 10px;
       font-size: 15px;
   }
 
@@ -83,4 +84,8 @@
 
 .tooltips:hover .tooltipstext {
     visibility: visible;
+}
+
+.csliderClass {
+	margin-bottom: 15px;
 }
